@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> ShinYerim - skpicglobalResponsive </title>
+    <script src="./js/jquery-1.11.3.min.js"></script>
+    <script src="https://kit.fontawesome.com/2d323a629b.js" crossorigin="anonymous"></script>
+    <script src="js/skpic.js"></script>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+</head>
+
+<body>
+    <!-- #wrap>header>.innerHeader>h1.logo>a>img -->
+    <div id="wrap">
+        <!-- ===============================
+            header 
+        ================================-->
+        <header>
+            <div class="innerHeader">
+                <div class="navbar">
+                    <!-- logo -->
+                    <h1 class="logo"><a href="#"><img src="./images/logo.svg" alt="로고"></a></h1>
+                    <!-- menu -->                   
+                   <!-- ul.menu>li*3>a{About} -->
+                   <ul class="menu">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#career">Career</a></li>
+                    <li><a href="#products">Products</a></li>
+                   </ul>
+                    <!-- toggleBtn -->
+                    <!-- a>img -->
+                    <a href="#">
+                        <img src="./images/toggle.svg" alt="토글버튼" class="toggleBtn">
+                    </a>
+                </div>
+            </div>
+        </header>
+        <!-- ===============================
+            mainImg
+        ================================-->   
+            <main>
+                <!-- section#mainImg>.mainText>.title+.ciDown -->
+                <section id="mainImg">
+                    <div class="mainText">
+                        <div class="title">
+                            <h2>
+                              새로운 변화의 삶의 가치를 높이는
+
+                            </h2>
+                            <p>
+                              SK picglobal의 기술
+                            </p>
+                        </div>
+                        <div class="ciDown">
+                            <h3>Download CI</h3>
+                            <p>
+                                Download the CI of SK Picglobal.
+                            </p>
+
+                            <div class="btn">
+                              <a href="./down/SK-picglobal-CI.zip" class="downBtn"></a> <!--zip파일 다운-->
+                              <!-- <a href="./down/kaist.pdf" class="downBtn" target="_blank"></a> --> <!--pdf 열기-->
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+          
+        <!-- ===============================
+            about
+        ================================-->   
+          <!-- section#about>.aboutInner>h3+ul>li*3>a>img -->
+          <section id="about">
+            <div class="aboutInner">
+              <h3>About <span></span>
+                <p>새로운 변화로 삶의 가치를 높이는 SK picglobal의 기술</p>
+              </h3>
+              
+              <ul class="wow animate__animated animate__fadeInRight">
+                <li><a href="#"><img src="images/img_1.jpg" alt="이미지1">
+                </a></li>
+                <li><a href="#"><img src="images/img_2.jpg" alt="이미지2"></a></li>
+                <li><a href="#"><img src="images/img_3.jpg" alt="이미지3"></a></li>
+              </ul>
+            </div>
+          </section>
+
+
+        <!-- ===============================
+            career
+        ================================-->   
+        <!-- section#career>.careerInner>h3+.redBox -->
+        <section id="career">
+          <div class="careerInner">
+
+            <div class="redBox wow animate__animated animate__fadeInLeft">
+              <!-- .tTEXT+.bottomW -->
+              <div class="tTEXT">
+                <p class="top">Career</p>
+                <span>SK Picglobal에서 <br> 꿈을 펼칠 당신을 기다립니다.</span>
+              </div>
+              <div class="bottomW">
+                <p><a href="https://www.skc.kr/kor/career/skcfamily_recruit.do" target="_blank">채용사이트</a></p>
+                <a href="https://www.skc.kr/kor/career/skcfamily_recruit.do" target="_blank">
+                  <!-- <img src="images/arrow-narrow-right.svg" alt="화살표"> -->
+                  <span class="material-symbols-outlined">
+                    open_in_new
+                    </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ===============================
+            products
+        ================================-->   
+        <!-- section#products>.productsInner>h3>span -->
+        <section id="products">
+          <div class="productsInner">
+            <h3>Products<span></span>
+              <p>독자적인 기술력으로 최고의 가치를 만들어가는 SK picglobal</p>
+            </h3>
+            <!-- .information>.cotainer>h4.h4.text-center+ul.classic-list.info-list -->
+            <div class="information wow animate__animated animate__fadeInRight">
+              <div class="cotainer">
+                <h4 class="h4 text-center"></h4>
+                <ul class="classic-list info-list">
+                  <!-- li*4>a{Title} -->
+                  <li data-class="Title1" class="selected"><a href="#">PGUSP/PGF</a></li>
+                  <li data-class="Title2"><a href="#">P.O</a></li>
+                  <li data-class="Title3"><a href="#">S.M</a></li>
+                  <li data-class="Title4"><a href="#">P.G.E</a></li>
+                </ul>
+                <!-- content -->
+                <!-- .info-content>.Title1>img+p -->
+                <div class="info-content">
+                  <!-- 1 -->
+                  <div class="Title1">
+                    <img src="images/product1.jpg" alt="이미지1">
+                    <h5>Propylene Glycol USP/Food / 프로필렌 글리콜 USP/Food</h5>
+                    <p>Propylene Glycol은 미국 FDA(The U.S Food and Drug Administration)에서 안전한 물질로 분류, 등록되어 제약, 식품 및 화장품 용도로 사용이 됩니다. SK picglobal의 Propylene Glycol USP*/Food 제품은 국내외 정부의 엄격한 식품/의약품 품질 기준에 따라 고순도 제품으로 제조됩니다.
+                      이 제품은 2개의 알코올기(-OH)가 있는 물질로, 다이올(-Diol) 또는 글리콜로 명명하며, 투명한 시럽형태로 약간의 단맛과 쓴맛이 있는 액체입니다. 무독성, 보습성 및 항균성 등 다양한 물성을 가지고 있으며, 특히 높은 용해력, 분산력으로 물과 유기용매 등 여러 물질을 잘 녹이는 특성을 가지고 있습니다.</p>
+                  </div>
+                  <!-- 2 -->
+                  <div class="Title2">
+                    <img src="images/product2.jpg" alt="이미지2">
+                    <h5>Propylene Oxide / 프로필렌 옥사이드</h5>
+                    <p>PO는 산업용으로 널리 쓰이는 액상의 고반응성 제품으로 대부분의 유기용제에 잘 섞입니다. 자동차나 가구 및 건축 보온재 등으로 쓰이는 폴리우레탄의 원료인 폴리올(Polyol), 약품/식품 및 화장품 등의 원료로 사용되는 프로필렌 글리콜(Propylene Glycol), 용해력이 좋은 수용성 용제인 프로필렌 글리콜 에테르(Propylene Glycol Ether) 등의 기초 원료입니다.</p>
+                  </div>
+                  <!-- 3 -->
+                  <div class="Title3">
+                    <img src="images/product3.jpg" alt="이미지3">
+                    <h5>Styrene Monomer / 스티렌 모노머</h5>
+                    <p>SK picglobal의 스티렌 모노머(Styrene Monomer, SM)는 Propylene Oxide(PO)와 병산 공정으로 생산됩니다.
+                      스티렌 모노머는 단일중합체로 높은 성형성이 특징인 폴리스티렌 생산에 주로 사용이 됩니다. 또한 자유라디칼, 양이온, 음이온 등의 다양한 개시제와 중합반응제로서 탄성력을 갖는 열경화성 엘라스토머에서 엔지니어링 플라스틱까지 다양한 제품의 반응물질로 공중합체(copolymer) 제조에 주요 원료로 사용됩니다.</p>
+                  </div>
+                  <!-- 4 -->
+                  <div class="Title4">
+                    <img src="images/product4.jpg" alt="이미지4">
+                    <h5>Propylene Glycol Ether / 프로필렌 글리콜 에테르</h5>
+                    <p>PGE는 PM(Propylene Glycol Mono Methyl Ether), DPM(Di-propylene Glycol Mono Methyl Ether), TPM(Tri-propylene Glycol Mono Methyl Ether)의 통칭입니다.
+                      PO와 메탄올의 반응에서 나오는 고순도 용제입니다. PGE는 무색, 저독성의 부드러운 냄새가 나는 가연성 액체로 완전 수용성이며 여러 유기용제와 잘 섞이고 용해력이 좋습니다. 독성이 강한 에틸렌 계열의 글리콜 에스테르 용제를 대체할 가장 좋은 용제입니다.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+<!--    // 모바일에서는  information 가려줌-->
+
+
+<!-- 모바일 아코디언  -->
+<!-- dl.accordion>dt{Title1}+dd>img -->
+<dl class="accordion">
+<!-- 1 -->
+  <dt>PGUSP/PGF</dt>
+  <dd><img src="images/product1.jpg" alt="제품1">
+  <h5>Propylene Glycol USP/Food / 프로필렌 글리콜 USP/Food</h5>
+  <p>
+    Propylene Glycol은 미국 FDA(The U.S Food and Drug Administration)에서 안전한 물질로 분류, 등록되어 제약, 식품 및 화장품 용도로 사용이 됩니다. SK picglobal의 Propylene Glycol USP*/Food 제품은 국내외 정부의 엄격한 식품/의약품 품질 기준에 따라 고순도 제품으로 제조됩니다.
+    이 제품은 2개의 알코올기(-OH)가 있는 물질로, 다이올(-Diol) 또는 글리콜로 명명하며, 투명한 시럽형태로 약간의 단맛과 쓴맛이 있는 액체입니다. 무독성, 보습성 및 항균성 등 다양한 물성을 가지고 있으며, 특히 높은 용해력, 분산력으로 물과 유기용매 등 여러 물질을 잘 녹이는 특성을 가지고 있습니다.
+  </p>
+  </dd>
+<!-- 2 -->
+  <dt>P.O</dt>
+  <dd><img src="images/product2.jpg" alt="제품2">
+  <h5>Propylene Oxide / 프로필렌 옥사이드</h5>
+  <p>
+    PO는 산업용으로 널리 쓰이는 액상의 고반응성 제품으로 대부분의 유기용제에 잘 섞입니다. 자동차나 가구 및 건축 보온재 등으로 쓰이는 폴리우레탄의 원료인 폴리올(Polyol), 약품/식품 및 화장품 등의 원료로 사용되는 프로필렌 글리콜(Propylene Glycol), 용해력이 좋은 수용성 용제인 프로필렌 글리콜 에테르(Propylene Glycol Ether) 등의 기초 원료입니다.
+  </p>
+  </dd>
+<!-- 3 -->
+  <dt>S.M</dt>
+  <dd><img src="images/product3.jpg" alt="제품3">
+    <h5>Styrene Monomer / 스티렌 모노머</h5>
+  <p>
+    SK picglobal의 스티렌 모노머(Styrene Monomer, SM)는 Propylene Oxide(PO)와 병산 공정으로 생산됩니다.
+    스티렌 모노머는 단일중합체로 높은 성형성이 특징인 폴리스티렌 생산에 주로 사용이 됩니다. 또한 자유라디칼, 양이온, 음이온 등의 다양한 개시제와 중합반응제로서 탄성력을 갖는 열경화성 엘라스토머에서 엔지니어링 플라스틱까지 다양한 제품의 반응물질로 공중합체(copolymer) 제조에 주요 원료로 사용됩니다.
+  </p>
+  </dd>
+<!-- 1 -->
+  <dt>P.G.E</dt>
+  <dd><img src="images/product4.jpg" alt="제품4">
+  <h5>Propylene Glycol Ether / 프로필렌 글리콜 에테르</h5>
+  <p>
+    PGE는 PM(Propylene Glycol Mono Methyl Ether), DPM(Di-propylene Glycol Mono Methyl Ether), TPM(Tri-propylene Glycol Mono Methyl Ether)의 통칭입니다.
+    PO와 메탄올의 반응에서 나오는 고순도 용제입니다. PGE는 무색, 저독성의 부드러운 냄새가 나는 가연성 액체로 완전 수용성이며 여러 유기용제와 잘 섞이고 용해력이 좋습니다. 독성이 강한 에틸렌 계열의 글리콜 에스테르 용제를 대체할 가장 좋은 용제입니다.
+  </p>
+  </dd>
+</dl>
+
+
+
+          </div>
+        </section>
+
+    </main>
+        <!-- ===============================
+            footer
+        ================================-->   
+      <footer>
+        <div class="footerInner">
+        <!-- p+ul.sns>li*3>a>i.fa.fa-twitter -->
+        <p>
+          &copy; ShinYerim. SK Picglobal. All rights reserved.
+        </p>
+        <ul class="sns">
+          <li><a href=""><i class="fa fa-twitter"></i></a></li>
+          <li><a href=""><i class="fa fa-youtube"></i></a></li>
+          <li><a href=""><i class="fa fa-instagram"></i></a></li>
+        </ul>
+      </div>
+      </footer>
+    
+      <!-- topBtn -->
+      <!-- a>img.topBtn -->
+      <a href="#"><img src="images/topBtn.svg" alt="클릭시 최상단 화살표" class="topBtn"></a>
+    
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
+
+</body>
+
+</html>
